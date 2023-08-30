@@ -5,6 +5,7 @@ body {
   
   header {
     padding: 20px 0;
+    color: skyblue;
   }
   
   header .row {
@@ -15,8 +16,7 @@ body {
   
   header nav {
     display: flex;
-    justify-content: flex-end;
-    color: skyblue;
+    justify-content: flex-end;;
   }
   
   body p {

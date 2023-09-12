@@ -1,7 +1,6 @@
 
 $(document).ready(function() {
-    $('#clicker').click(function() {
-        
+    $('#duckClicker').click(function() {
         $.ajax({
             url: 'https://random-d.uk/api/quack',
             dataType: 'json',

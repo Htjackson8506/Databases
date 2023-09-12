@@ -1,4 +1,4 @@
-let isDuck = true;  // Start with the random duck
+let isDuck = true;
 
 async function fetchDuckImage() {
     try {
@@ -20,8 +20,7 @@ function switchImage() {
     } else {
         fetchDuckImage();
     }
-    isDuck = !isDuck; // Toggle the flag
+    isDuck = !isDuck;
 }
 
-// Fetch the duck image initially when the page loads
 window.onload = fetchDuckImage;

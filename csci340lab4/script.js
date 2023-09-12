@@ -14,11 +14,11 @@ function fetchDuckImage() {
     });
 }
 
-function fetchBearImage() {
-    document.getElementById('bearImage').src = 'https://placebear.com/200/300';
+function fetchCatImage() {
+    document.getElementById('catImage').src = 'https://api.thecatapi.com/v1/images/search';
 }
 
 $(document).ready(function() {
     fetchDuckImage();
-    fetchBearImage();
+    fetchCatImage();
 });

@@ -1,20 +1,21 @@
 
 $(document).ready(function() {
     $('#clicker').click(function() {
+        
         $.ajax({
-            url: "https://api.thecatapi.com/v1/images/search",
+            url: 'https://random-d.uk/api/quack',
             dataType: 'json',
             success: function(results) {
                 console.log(results["url"]);
                 if (results["url"].endsWith(".mp4")) {
-                    $('#catImage').attr("src", "images/blank.png");
+                    $('#duckImage').attr("src", "images/blank.png");
                 } else {
-                    $('#catImage').attr("src", results["url"]);
+                    $('#duckImage').attr("src", results["url"]);
                 }
             },
             error: function(error) {
-                console.error("Error fetching cat image:", error);
-            }   
-        });
+                console.error("Error fetching duck image:", error);
+            }
     });
+});
 });

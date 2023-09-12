@@ -4,7 +4,7 @@ body {
     margin-top: 50px;
 }
 
-#duckImageContainer, #catImageContainer {
+#dogImageContainer, #catImageContainer {
     margin: 0 auto;
     border: 1px solid #ddd;
     overflow: hidden;
@@ -16,7 +16,7 @@ img {
     max-height: 100%;
 }
 
-#duckClicker, #catClicker{
+#dogClicker, #catClicker{
     margin-top: 20px;
     padding: 10px;
 }

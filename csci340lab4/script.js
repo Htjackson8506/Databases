@@ -4,7 +4,7 @@ $(document).ready(function() {
         $.ajax({
             url: "https://api.thecatapi.com/v1/images/search",
             dataType: 'json',
-            success: function(data) {
+            success: function(results) {
                 console.log(results["url"]);
                 if (results["url"].endsWith(".mp4")) {
                     $('#catImage').attr("src", "images/blank.png");

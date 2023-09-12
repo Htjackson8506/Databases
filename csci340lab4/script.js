@@ -1,7 +1,6 @@
 
-$(document).ready(function() {
+$(document).ready(function() {}
     $('#clicker').click(function() {
-    function fetchDuckImage() {
         $.ajax({
             url: 'https://random-d.uk/api/quack',
             dataType: 'json',
@@ -16,10 +15,7 @@ $(document).ready(function() {
             error: function(error) {
                 console.error("Error fetching duck image:", error);
             }
-    });
-}
-
-    function fetchCatImage() {
+    }),
         $.ajax({
             url: "https://api.thecatapi.com/v1/images/search",
             dataType: 'json',
@@ -35,4 +31,4 @@ $(document).ready(function() {
                 console.error("Error fetching cat image:", error);
             }
     });
-}})})
+}));

@@ -1,14 +1,17 @@
 let isDuck = true;
-
-async function fetchDuckImage() {
-    try {
-        const response = await fetch('https://random-d.uk/api');
-        const data = await response.json();
-        document.getElementById('currentImage').src = data.url;
-    } catch (error) {
-        console.error("Error fetching duck image:", error);
-    }
-    isDuck=true;
+function fetchDuckImage() {
+    $.ajax({
+        url: 'https://random-d.uk/api',
+        type: 'GET',
+        dataType: 'json',
+        success: function(data) {
+            document.getElementById('currentImage').src = data.url;
+            isDuck = true;
+        },
+        error: function(error) {
+            console.error("Error fetching duck image:", error);
+        }
+    });
 }
 
 function fetchBearImage() {
@@ -22,7 +25,8 @@ function switchImage() {
     } else {
         fetchDuckImage();
     }
-
 }
 
-window.onload = fetchDuckImage;
+$(document).ready(function() {
+    fetchDuckImage();
+});

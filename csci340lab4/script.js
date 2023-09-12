@@ -8,10 +8,12 @@ async function fetchDuckImage() {
     } catch (error) {
         console.error("Error fetching duck image:", error);
     }
+    isDuck=true;
 }
 
 function fetchBearImage() {
     document.getElementById('currentImage').src = 'https://placebear.com/200/300';
+    isDuck = false;
 }
 
 function switchImage() {
@@ -20,7 +22,7 @@ function switchImage() {
     } else {
         fetchDuckImage();
     }
-    isDuck = !isDuck;
+
 }
 
 window.onload = fetchDuckImage;

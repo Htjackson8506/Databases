@@ -2,7 +2,7 @@ let isDuck = true;
 
 function fetchDuckImage() {
     $.ajax({
-        url: 'https://random-d.uk/api',
+        url: 'https://random-d.uk/api/v2',
         type: 'GET',
         dataType: 'json',
         success: function(data) {

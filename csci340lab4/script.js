@@ -12,8 +12,8 @@ $(document).ready(function() {
                     $('#duckImage').attr("src", results["url"]);
                 }
             },
-            error: function(error) {
-                console.error("Error fetching duck image:", error);
+            error: function(xhr,status,error) {
+                console.log(error);
             }
     });
 });

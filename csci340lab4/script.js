@@ -3,19 +3,36 @@ $(document).ready(function() {
     $('#clicker').click(function() {
     function fetchDuckImage() {
         $.ajax({
-            url: 'https://random-d.uk/',
-            type: 'GET',
+            url: 'https://random-d.uk/api/quack',
             dataType: 'json',
-            success: function(data) {
-                document.getElementById('duckImage').src = data.url;
+            success: function(results) {
+                console.log(results["url"]);
+                if (results["url"].endsWith(".mp4")) {
+                    $('#duck').attr("src", "images/blank.png");
+                } else {
+                    $('#duckImage').attr("src", results["url"]);
+                }
             },
             error: function(error) {
                 console.error("Error fetching duck image:", error);
             }
-        });
+    });
 }
 
-function fetchCatImage() {
-    document.getElementById('catImage').src = 'https://api.thecatapi.com/v1/images/search';
-}
-    })})
+    function fetchCatImage() {
+        $.ajax({
+            url: "https://api.thecatapi.com/v1/images/search",
+            dataType: 'json',
+            success: function(data) {
+                console.log(results["url"]);
+                if (results["url"].endsWith(".mp4")) {
+                    $('#catImage').attr("src", "images/blank.png");
+                } else {
+                    $('#catImage').attr("src", results["url"]);
+                }
+            },
+            error: function(error) {
+                console.error("Error fetching cat image:", error);
+            }
+    });
+}})})

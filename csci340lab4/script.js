@@ -8,7 +8,7 @@ $(document).ready(function() {
             success: function(results) {
                 console.log(results["url"]);
                 if (results["url"].endsWith(".mp4")) {
-                    $('#duck').attr("src", "images/blank.png");
+                    $('#duckImage').attr("src", "images/blank.png");
                 } else {
                     $('#duckImage').attr("src", results["url"]);
                 }

@@ -11,7 +11,9 @@ body {
     width: 500px;
     height: 500px;
 }
-
+#text {
+    border: 5px, darkblue;
+}
 
 img {
     max-width: 100%;

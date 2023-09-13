@@ -5,7 +5,8 @@ body {
 }
 
 #dogImageContainer, #catImageContainer {
-    margin: 0 auto;
+    margin: 20px;
+    padding: 10px;
     border: 1px solid #ddd;
     overflow: hidden;
     width: 500px;

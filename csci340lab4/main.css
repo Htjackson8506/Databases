@@ -12,7 +12,7 @@ body {
     height: 500px;
 }
 #text {
-    border: 5px, darkblue;
+    border: 4mm ridge darkblue;
 }
 
 img {
@@ -23,4 +23,5 @@ img {
 #dogClicker, #catClicker{
     margin-top: 20px;
     padding: 10px;
+    margin-bottom: 20px;
 }

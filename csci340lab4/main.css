@@ -7,12 +7,12 @@ body {
 #dogImageContainer, #catImageContainer {
     margin: 20px;
     padding: 10px;
-    background-color:darkblue;
+    background-color:lightsteelblue;
     width: 500px;
     height: 500px;
 }
 #text {
-    border: 4mm ridge darkblue;
+    border: 4mm ridge lightsteelblue;
 }
 
 img {
@@ -23,5 +23,6 @@ img {
 #dogClicker, #catClicker{
     margin-top: 20px;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    background-color:lightsteelblue;
 }

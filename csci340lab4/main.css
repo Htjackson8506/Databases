@@ -16,6 +16,7 @@ body {
 }
 #text {
     border: 4mm ridge lightsteelblue;
+    background-color: white;
 }
 
 img {

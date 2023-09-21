@@ -205,9 +205,9 @@ header ul li { list-style: none; float: left; text-transform: uppercase; letter-
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
 .intro { padding: 115px 0; background-color: #fbfbfb; }
-.section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-1 { background: url("https://free-images.com/lg/d06b/geese_geese_schaar_house_0.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-2 { background: url("https://free-images.com/md/184b/canada_geese_geese_goslings.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-3 { background: url("https://free-images.com/md/7e32/geese_wild_geese_birds.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-4 { background: url("https://free-images.com/lg/b12a/canada_geese_angry_wild.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }

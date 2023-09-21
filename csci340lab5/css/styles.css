@@ -173,7 +173,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url("https://free-images.com/lg/b12a/canada_geese_angry_wild.jpg") no-repeat top center; padding-top: 75px; }
+h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/cog-icon.png) no-repeat top center; padding-top: 75px; }
 h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/frame-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/mech-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/front-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
@@ -208,7 +208,7 @@ header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
 .section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-4 { background: url(../img/red-bike.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+.section-4 { background: url("https://free-images.com/lg/b12a/canada_geese_angry_wild.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }

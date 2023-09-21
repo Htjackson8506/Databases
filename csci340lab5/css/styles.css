@@ -173,7 +173,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/cog-icon.png) no-repeat top center; padding-top: 75px; }
+h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url("https://free-images.com/lg/b12a/canada_geese_angry_wild.jpg") no-repeat top center; padding-top: 75px; }
 h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/frame-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/mech-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/front-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
